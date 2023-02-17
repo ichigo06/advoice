@@ -1,0 +1,126 @@
+
+@import "color";
+// h1 {
+//     font-size: 70px !important;
+// }
+// h2 {
+//     font-size: 40px !important;
+// }
+// h3 {
+//     font-size: 28px !important;
+// }
+// h4 {
+//     font-size: 18px !important;
+// }
+// h5 {
+//     font-size: 16px !important;
+// }
+.item-image-active {
+    background-image: url("../img/recurso-item.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 30px;
+}
+.swiperPartners  {
+    position: relative;
+    overflow: hidden;
+}
+.next-partners {
+    background-image: url("../img/arrow.png");
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: 50%;
+    margin: auto;
+    z-index: 100;
+    right: -40px;
+    margin-bottom: -25px;
+}
+.prev-partners {
+    background-image: url("../img/arrow.png");
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    margin: auto;
+    z-index: 100;
+    left: -40px;
+    margin-top: -25px;
+}
+.next-partners , .prev-partners {
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+.next-success {
+    background-image: url("../img/arrow.png");
+    transform: rotate(180deg);
+    background-position: left;
+}
+.prev-success {
+    background-image: url("../img/arrow.png");
+    background-position: left;
+}
+.next-success , .prev-success {
+    padding: 20px;
+    background-repeat: no-repeat;
+}
+.color-white {
+    color: #ffffff !important;
+}
+.color-black {
+    color: #000000 !important;
+}
+.title__global {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.title__great {
+    font-size: 120px;
+    color: gray;
+    line-height: 120px; 
+    height: 140px;
+    font-family: 'worksans-bold';
+    @media(max-width: 768px) {
+        line-height: 60px;
+        font-size: 60px;
+    }
+}
+.title__global {
+    font-family: 'worksans-bold';
+}
+.button__primary {
+    background-color: $color-secundary;
+    padding: 5px 30px;
+    border-radius: 20px;
+    color: #ffff;
+    font-size: 20px;
+    font-family: 'worksans-regular';
+    &:hover {
+        background-color: $color-secundary;
+        opacity: 0.9;
+        text-decoration: none;
+        color: #ffffff;
+    }
+}
+.background-secundary {
+    background-color: rgba(128,128,128,.1);
+}
+.swiper-pagination-partners {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.card-service-slider  {
+    overflow: hidden;
+}
+
+.active-submenu {
+    transform: translate(0px, -100px);
+    transition: ease all 1s;
+}
+.active-submenu-open {
+    transform: translate(0px, 0px);
+    transition: ease all 1s;
+}

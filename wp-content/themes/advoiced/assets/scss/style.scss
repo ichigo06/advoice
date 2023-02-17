@@ -1,0 +1,86 @@
+@import "color";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.text-title {
+    text-align: center;
+}
+ul {
+    margin: 0px !important;
+    padding: 0px !important;
+    list-style: none;
+    gap: 20px;
+}
+.bannerHero {
+    background: rgb(255,255,255);
+    background: linear-gradient(80deg, rgba(255,255,255,1) 10%, rgba(228,66,17,1) 30%, rgba(233,177,56,1) 60%, rgba(52,88,176,1) 97%);
+    padding: 120px 0px;
+    &__title {
+        color: #ffffff;
+        font-size: 30px;
+        font-family: 'worksans-regular';
+        @media(max-width: 768px){
+            font-size: 20px;
+        }
+    }
+    &__button {
+        justify-content: center;
+        text-align: center;
+        margin-top: 30px;
+        display: flex;
+        a {
+            color: #161616;
+            background: #ffffff;
+            font-weight: bold;
+            padding: 10px 45px;
+            border-radius: 20px;
+            font-size: 18px;   
+            text-decoration: none !important;
+            font-family: 'worksans-bold';
+            &:hover {
+                color: #ffffff;
+                background-color: #E44211;
+            }
+        }
+    }
+}
+.swiperSuccess  {
+    overflow: hidden
+}
+.contact {
+    margin-top: 15px;
+    &__red {
+        margin-right: 15px;
+    }
+    &__img {
+        width: 30px;
+    }
+}
+.swiper2 {
+    .swiper-wrapper {
+        transform: translate3d(138.75px, 0px, 0px);
+    }
+}
+body {
+    position: relative
+}
+.header__transparent {
+    z-index: 999;
+    top: 0;
+    padding: 30px;
+    background: transparent;
+    width: 100%;
+    position: fixed;
+}
+@import "variables";
+@import "section";
+@import "home";
+@import "header";
+@import "footer";
+@import "card";
+@import "swiper";
+@import "container";
+@import "process";
+@import "font";

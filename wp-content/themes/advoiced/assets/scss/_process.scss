@@ -1,0 +1,24 @@
+@import "color";
+.process-border {
+    border: 0.5px solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.process-border-ordinary {
+    border-top: 0.5px solid;
+    border-bottom: 0.5px solid;
+    border-left: 0.5px solid;
+    border-right: 0.5px solid;
+}
+.process {
+    &__title {
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        font-size: 25px;
+        position: absolute;
+        top: 90px;
+    }
+    &__details {
+        
+    }
+}

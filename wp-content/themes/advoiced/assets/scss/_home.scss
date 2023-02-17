@@ -1,0 +1,12 @@
+@import "color";
+.home {
+    &__title {
+        font-size: 60px;
+    }
+    &__link {
+        color: $color-four;
+        font-size: 25px;
+        margin-top: 20px;
+        display: flex;
+    }
+}

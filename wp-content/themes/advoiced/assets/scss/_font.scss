@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'worksans-black';
+    src: url('../font/WorkSans-Black.woff2') format('woff2'),
+         url('../font/WorkSans-Black.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'worksans-bold';
+    src: url('../font/WorkSans-Bold.woff2') format('woff2'),
+         url('../font/WorkSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'worksans-regular';
+    src: url('../font/WorkSans-Regular.woff2') format('woff2'),
+         url('../font/WorkSans-Regular.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'worksans-light';
+    src: url('../font/WorkSans-Light.woff2') format('woff2'),
+         url('../font/WorkSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
